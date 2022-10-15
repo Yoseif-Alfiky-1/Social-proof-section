@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+*{
+    margin: 0;
+}
+
+.tp1{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    width: 50%;
+}
+
+
+.bt1{
+    position:absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+    width: 71%;
+}
+
+.content {
+    background: url(images/);
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 10%;
+   align-items: center;
+   flex-wrap: wrap;
+   position: relative;
+
+}
+*/
+
+
+.down {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Red Hat Display',sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+}
+.one {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color:hsl(300, 43%, 22%);
+    padding: 20px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    font-weight: 90;
+    max-width: 30%;
+  
+}
+.one  img {
+    border-radius: 50%;
+    width: 40px;
+    padding: 8px;
+}
+.one h5 {
+  position:absolute;
+  left:30%;
+  top: 35px;
+  
+}
+*/
+.one p {
+    padding: 8px;
+}
+span {
+    color: hsl(333, 80%, 67%);
+}
+
+.two {
+   
+    max-width: 30%;
+    background-color:hsl(300, 43%, 22%);
+    padding: 20px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    font-weight: 90;
+    position:absolute;
+    top: 0px;
+    left: 390px;
+    top:380px ;
+}
+.two  img {
+    border-radius: 50%;
+    width: 40px;
+    padding: 8px;
+}
+.two h5 {
+  position:absolute;
+  left:30%;
+  top: 35px;
+  right: 0;  
+  bottom:0;
+}
+.two p {
+    padding: 8px;
+}
+
+.three {
+    position: absolute;
+    top:0 ;
+    left: 880px;
+    bottom: 60px;
+    max-width: 350px;
+    background-color:hsl(300, 43%, 22%);
+    padding: 20px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    font-weight: 90;
+   
+}
+.three  img {
+    border-radius: 50%;
+    width: 40px;
+    padding: 8px;
+}
+.three h5 {
+  position:absolute;
+  left:30%;
+  top: 35px;
+  
+}*/
+.three p {
+    padding: 8px;
+}
+*/
+  .product {
+    position:absolute;
+    top: 10px;
+    left: 5px;
+    right: 500px;
+
+    font-size: 20px;
+    min-width: 500px;
+    margin:90px;
+  
+}
+
+.product h1 {
+   max-width: 300px;
+   font-size: 42px;
+   line-height: 40px;
+   font-family: sans-serif;
+   font-weight: 900px;
+   margin: 60px 0 0 0;
+   color: hsl(300, 43%, 22%);
+}
+
+.product p {
+    max-width: 430px;
+    font-size: 18px;
+    color: hsl(303, 10%, 53%);
+    margin: 20px  20px 30px 0;
+
+}
+/* still need to control the position here*/
+.evaluation {
+   min-width: 700px;
+   position: relative;
+   margin-left: 50px;
+   position:absolute;
+   top: 60px;
+   right: 20px;
+}
+ 
+
+ .evaluation .p1 {
+    position: absolute;
+    background-color: hsl(300, 24%, 96%) ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 20px 10%;
+    
+    top: 0;
+
+}
+.evaluation .p2 {
+    position: absolute;
+    left: 50px;
+    top: 75px;
+    background-color: hsl(300, 24%, 96%) ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px 10%;
+    
+}
+.evaluation .p3 {
+    position: absolute;
+    left: 100px;
+    top: 145px;
+    background-color: hsl(300, 24%, 96%) ;
+    margin: 10px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px 10%;
+    
+}*/
+
+
+
+.evaluation p {
+    padding: 15px;
+    background-color: hsl(300, 24%, 96%) ;
+    margin: 10px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+
